@@ -1,28 +1,42 @@
-#nav {
+#nav, #not-nav {
     display: inline;
-    float: left;
-    margin-left: 1%
-    margin-right: 2%;
     overflow: hidden;
-    width: 14%;
-
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
 }
 
-#not-nav {
-    display: inline;
+#nav {
     float: left;
     margin-left: 2%;
     margin-right: 1%;
-    overflow: hidden;
-    width: 80%;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 14%;
+}
+
+#not-nav {
+    float: right;
+    margin-left: 1%;
+    margin-right: 2%;
+    padding: 2% 2.5%;
+    width: 75%;
 }
 
 /* When the screen gets real tiny, put the nav bar on top.
    Accordingly, make the not-nav portion wider. */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 555px) {
     #nav, #not-nav {
-        clear: both;
-        margin: 0px auto;
+        margin-left: 1%;
+        margin-right: 1%;
         width: 98%;
+    }
+    
+    #nav {
+        position: static;
+    }
+    
+    #not-nav {
+        padding: 2% 2.5%;
+        width: 93%;
     }
 }
