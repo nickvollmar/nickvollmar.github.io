@@ -1,7 +1,11 @@
+body {
+    overflow-y: scroll;
+    /* Oh, whatever. */
+}
+
 #nav, #not-nav {
     display: inline;
     overflow: hidden;
-    /*margin-top: 10px;*/
     margin-bottom: 10px;
 }
 
