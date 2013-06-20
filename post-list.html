@@ -6,7 +6,7 @@ title: Posts
 I plan on writing posts at intervals. They will end up here.
 
 <ul>
-{% for post in site.posts %}{% if post.published == "true" %}
+{% for post in site.posts %}
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endif %}{% endfor %}
+{% endfor %}
 </ul>
