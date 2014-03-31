@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    font-size: 12pt;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.chapter-head {
+    font-size: 14pt;
+}
+
+.big-chapter-head {
+    font-size: 18pt;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.chapter-number {
+    /*display: inline-block;
+    width: 55px;
+    text-align: right;
+    overflow: hidden;*/
+}
+
+.plaintext-link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.sentence {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.meta-stuff {
+    display: inline;
+    float: left;
+    width: 480px;
+}
+
+.old-e,
+.mod-e,
+.old-e-contd,
+.mod-e-contd {
+    display: inline;
+    float: left;
+    width: 450px;
+    padding-left: 30px;
+}
+.old-e,
+.mod-e {
+    text-indent: -25px;
+}
+
+
+
